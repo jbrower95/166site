@@ -43,6 +43,8 @@ function linkForAssignmentOrProject(what) {
 
 function evaluate(cmd) {
 
+    cmd = cmd.trim();
+
     var hardCode = {
         help: "commands: \n\
     hours - View TA hours.\n\
